@@ -13,9 +13,14 @@
             </p>
             <p><span class="glyphicon glyphicon-time"></span> Posted on {{$offer->created_at}}</p>
             <hr>
-            <img class="img-responsive" src="{{SR::$baseUrl}}/images/offers/{{$offer->id}}/{{$offer->image_ref}}" alt="">
-            <hr>
-            <p>{{HTML::entities($offer->description)}}</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="{{SR::$baseUrl}}images/offers/{{$offer->id}}/{{$offer->image_ref}}" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>{{HTML::entities($offer->description)}}</p>
+                </div>
+            </div>
             <hr>
             <address>
             <strong>Contact Address:</strong><br>

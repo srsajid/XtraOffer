@@ -309,7 +309,7 @@ input[type="color"]:focus,
     border: none;
 }
 .main-container .thumb .thumbnail img {
-    height: 260px;
+    height: 220px;
 }
 .caption-header {
     text-align: center;

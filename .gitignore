@@ -1,6 +1,7 @@
 /.idea
 /laravel_fxo/bootstrap/compiled.php
 /laravel_fxo/vendor
+/laravel_fxo/app/storage
 *.iml
 composer.phar
 composer.lock

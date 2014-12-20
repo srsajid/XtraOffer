@@ -13,12 +13,17 @@
             </p>
             <p><span class="glyphicon glyphicon-time"></span> Posted on <?php echo $offer->created_at; ?></p>
             <hr>
-            <img class="img-responsive" src="<?php echo SR::$baseUrl; ?>/images/offers/<?php echo $offer->id; ?>/<?php echo $offer->image_ref; ?>" alt="">
-            <hr>
-            <p><?php echo HTML::entities($offer->description); ?></p>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="<?php echo SR::$baseUrl; ?>images/offers/<?php echo $offer->id; ?>/<?php echo $offer->image_ref; ?>" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p><?php echo HTML::entities($offer->description); ?></p>
+                </div>
+            </div>
             <hr>
             <address>
-            <strong>Contact Address:</strong><br><br>
+            <strong>Contact Address:</strong><br>
             <?php echo HTML::entities($offer->contact_address); ?><br>
             <strong>Phone:</strong> <?php echo $offer->contact_number; ?><br>
             <strong title="Email">Email:</strong> <a href="mailto:#"><?php echo $offer->contact_email; ?></a>
