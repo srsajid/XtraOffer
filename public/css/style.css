@@ -301,7 +301,7 @@ input[type="color"]:focus,
 }
 .main-container .thumb {
     /*border: 1px solid #dddddd;*/
-    padding-left: 0;
+    padding-left: 10;
     padding-right: 0;
     cursor: pointer;
 }
@@ -309,10 +309,13 @@ input[type="color"]:focus,
     border: none;
 }
 .main-container .thumb .thumbnail img {
-    height: 220px;
+    height: 215px;
 }
 .caption-header {
-    text-align: center;
+    text-align: justify;
+}
+.team-description {
+    text-align: justify;
 }
 
 /* Footer*/

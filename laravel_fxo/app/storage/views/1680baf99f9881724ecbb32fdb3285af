@@ -33,12 +33,12 @@
                 <div class="row">
                     <div class="col-md-12">
                         <ul class="topbar-nav topbar-left">
-                            <li class="disabled"><a href="#"><i class="fa fa-envelope"></i> info@exta.com</a></li>
-                            <li class="disabled"><a href="#"><i class="fa fa-phone"></i> (+88) - 013245</a></li>
+                            <li class="disabled"><a href="#"><i class="fa fa-envelope"></i> info@freextraoffer.com</a></li>
+                            <li class="disabled"><a href="#"><i class="fa fa-phone"></i> (+88) - 01716991580</a></li>
                         </ul>
                         <ul class="topbar-nav topbar-right hidden-xs">
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.facebook.com/pages/freextraoffercom/382623471905875" target="_blank"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                             <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>

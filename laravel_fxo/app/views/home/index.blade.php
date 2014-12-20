@@ -13,7 +13,7 @@
                     <div class="caption">
                         <h5 class="caption-header">{{HTML::entities($offer->title)}}</h5>
                         <div class="team-description">
-                            {{HTML::entities(Str::limit($offer->description, 150))}}
+                            {{Str::limit(HTML::entities($offer->description), 60, " <span class='text-primary'>Read More ...<span>")}}
                         </div>
                     </div>
                 </div>

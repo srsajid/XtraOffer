@@ -7,12 +7,12 @@
             <?php foreach($offers as $offer): ?>
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12 thumb offer" offer-id="<?php echo $offer->id; ?>">
                     <div class="thumbnail">
-                        <img class="img-responsive" src="<?php echo SR::$baseUrl; ?>/images/offers/<?php echo $offer->id; ?>/<?php echo $offer->image_ref; ?>" alt="">
+                        <img class="img-responsive" src="<?php echo SR::$baseUrl; ?>images/offers/<?php echo $offer->id; ?>/<?php echo $offer->image_ref; ?>" alt="">
                     </div>
                     <div class="caption">
                         <h5 class="caption-header"><?php echo HTML::entities($offer->title); ?></h5>
                         <div class="team-description">
-                            <?php echo HTML::entities(Str::limit($offer->description, 150)); ?>
+                            <?php echo Str::limit(HTML::entities($offer->description), 100, " <span class='text-primary'>Read More ...<span>"); ?>
 
                         </div>
                     </div>
