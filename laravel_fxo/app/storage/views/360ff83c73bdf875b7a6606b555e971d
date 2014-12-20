@@ -1,0 +1,55 @@
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="create-offer">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="create-offer">Create Offer</h4>
+      </div>
+       <form class="form-horizontal create-edit-form" action="<?php echo SR::$baseUrl; ?>offer/save" method="post" enctype="multipart/form-data">
+          <div class="modal-body">
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">Offer Title:</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control validate[required,maxSize[200]]" name="title">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">Company Name:</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control validate[required,maxSize[200]]" name="company_name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">Last Date:</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control validate[required,custom[date],future[now]]" name="last_date">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Category:</label>
+                    <div class="col-sm-9">
+                        <?php echo Form::select("category", $categories, null, array('class' => 'form-control')); ?>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Image:</label>
+                    <div class="col-sm-9">
+                        <input type="file" class="form-control validate[require]" name="image">
+                    </div>
+                </div>
+                 <div class="form-group">
+                    <label class="control-label col-sm-3">Description:</label>
+                    <div class="col-sm-9">
+                        <textarea class="form-control" name="description"></textarea>
+                    </div>
+                </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+    </div>
+  </div>
+</div>

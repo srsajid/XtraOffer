@@ -1,0 +1,27 @@
+<?php $__env->startSection('content'); ?>
+    <div class="container main-container">
+ <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header"><?php echo $category->name; ?></h1>
+            </div>
+            <?php foreach($offers as $offer): ?>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 thumb offer" offer-id="<?php echo $offer->id; ?>">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="<?php echo SR::$baseUrl; ?>/images/offers/<?php echo $offer->id; ?>/<?php echo $offer->image_ref; ?>" alt="">
+                    </div>
+                    <div class="caption">
+                        <h5 class="caption-header"><?php echo HTML::entities($offer->title); ?></h5>
+                        <div class="team-description">
+                            <?php echo HTML::entities(Str::limit($offer->description, 150)); ?>
+
+                        </div>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+
+        </div>
+    </div>
+<?php $__env->stopSection(); ?>
+
+
+<?php echo $__env->make('layouts.sitepage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
