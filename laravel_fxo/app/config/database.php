@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'default' => 'mysql',
+	'default' => 'local',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -52,12 +52,22 @@ return array(
 			'prefix'   => '',
 		),
 
-		'mysql' => array(
+		'local' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
 			'database'  => 'freextra_root',
 			'username'  => 'root',
 			'password'  => '',
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',
+		),
+        'mysql' => array(
+			'driver'    => 'mysql',
+			'host'      => 'localhost',
+            'database'  => 'freextra_root',
+            'username'  => 'freextra_root',
+            'password'  => 'p@ssw0rd',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
