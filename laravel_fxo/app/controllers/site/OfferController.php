@@ -12,8 +12,7 @@ class OfferController extends BaseController {
     }
 
     public function getCreate() {
-        $categories = Category::lists("name", "id");
-        return View::make("offer.create", array('categories' => $categories));
+        return View::make("offer.create");
     }
 
     public function postSave() {

@@ -46,14 +46,79 @@ class CommonService {
         $currentCategory = null;
         if($currentAction == "CategoryController@getDetails") {
             $currentCategory = intval(Route::input("one"));
+            $selectedCategory = Category::find($currentCategory);
+            $currentCategory = $selectedCategory && $selectedCategory->category_id ? $selectedCategory->category_id : $currentCategory; 
         }
 
         $html = '<li '.($currentCategory ? "" : 'class="active"').'><a href="'.SR::$baseUrl.'">Home</a></li>';
+        $categoryMapping = array();
         foreach($categories as $category) {
-            $nav = "<li ".($currentCategory == $category->id ? 'class="active"' : '')."><a href='" . SR::$baseUrl ."category/details/$category->id'>$category->name</a></li>";
+            $parent = $category->category_id;
+            if($parent) {
+                if(!array_key_exists($parent, $categoryMapping)) {
+                    $categoryMapping[$parent] = array('child' => array());
+                }
+                array_push($categoryMapping[$parent]['child'], array('id' => $category->id, 'name' => $category->name)); 
+            } else {
+                if(!array_key_exists($category->id, $categoryMapping)) {
+                    $categoryMapping[$category->id] = array('child' => array());
+                }
+                $categoryMapping[$category->id]['name'] = $category->name;
+                $categoryMapping[$category->id]['id'] = $category->id;
+            }
+        }
+        foreach($categoryMapping as $key => $category) {
+            $nav = "";
+            $childes = $category['child'];
+            if(count($childes)) {
+                $nav = '<li role="presentation" class="'.($currentCategory == $category['id'] ? 'active ' : '').'dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">';
+                $nav = $nav.$category['name'].'<span class="caret"></span></a><ul class="dropdown-menu" role="menu">';
+                foreach($childes as $child) {
+                    $nav = $nav."<li><a href='" . SR::$baseUrl ."category/details/{$child['id']}'>{$child['name']}</a></li>";
+                }
+                $nav = $nav.'</ul></li>';
+
+            } else {
+                $nav = "<li ".($currentCategory == $category['id'] ? 'class="active"' : '')."><a href='" . SR::$baseUrl ."category/details/{$category['id']}'>{$category['name']}</a></li>";
+            }
             $html = $html.$nav;
         }
         return $html;
+    }
+    
+    static function categorySelect() {
+        $categories = Category::all();
+        $categoryMapping = array();
+        foreach($categories as $category) {
+            $parent = $category->category_id;
+            if($parent) {
+                if(!array_key_exists($parent, $categoryMapping)) {
+                    $categoryMapping[$parent] = array('child' => array());
+                }
+                array_push($categoryMapping[$parent]['child'], array('id' => $category->id, 'name' => $category->name));
+            } else {
+                if(!array_key_exists($category->id, $categoryMapping)) {
+                    $categoryMapping[$category->id] = array('child' => array());
+                }
+                $categoryMapping[$category->id]['name'] = $category->name;
+                $categoryMapping[$category->id]['id'] = $category->id;
+            }
+        }
+        echo '<select class="form-control"> name="category"';
+        foreach($categoryMapping as $key => $category) {
+            $childes = $category['child'];
+            if(count($childes)) {
+                echo "<optgroup label='{$category['name']}'>";
+                foreach($childes as $child) {
+                    echo "<option value='{$child['id']}'>{$child['name']}</option>";
+                    
+                }
+                echo "</optgroup>";
+            } else {
+                echo "<option value='{$category['id']}'>{$category['name']}</option>";
+            }
+        }
+        echo '</select>';
     }
 
 

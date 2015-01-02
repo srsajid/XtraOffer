@@ -46,7 +46,7 @@
                 <div class="form-group">
                     <label class="control-label col-sm-3">Category:</label>
                     <div class="col-sm-9">
-                        <?php echo Form::select("category", $categories, null, array('class' => 'form-control')); ?>
+                        <?php echo CommonService::categorySelect(); ?>
 
                     </div>
                 </div>

@@ -16,5 +16,5 @@ Route::controller("offer", "OfferController");
 Route::controller("category", "CategoryController");
 
 Route::get("test", function() {
-   return Hash::make("admin");
+   return Category::whereRaw("category_id is null")->lists("name", "id");
 });

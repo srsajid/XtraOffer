@@ -46,7 +46,7 @@
                 <div class="form-group">
                     <label class="control-label col-sm-3">Category:</label>
                     <div class="col-sm-9">
-                        {{Form::select("category", $categories, null, array('class' => 'form-control'))}}
+                        {{CommonService::categorySelect()}}
                     </div>
                 </div>
                 <div class="form-group">

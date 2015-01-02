@@ -288,15 +288,25 @@ input[type="color"]:focus,
 .navbar.navbar-default .navbar-nav li.dropdown.open > a,
 .navbar.navbar-default .navbar-nav li.dropdown.open > a:hover{
 	color: #fff;
-	background-color: #8cc152;
+	background-color: #0F101A;
 }
+.navbar.navbar-default .navbar-nav li .dropdown-menu {
+	background-color: rgb(27, 29, 42);
+}
+.navbar.navbar-default .navbar-nav li .dropdown-menu a{
+	color: #ffffff;
+}
+.navbar.navbar-default .navbar-nav li .dropdown-menu a:hover {
+	background-color: #0F101A;
+}
+
 .main-category-nav .create-offer {
     margin-top: 22px;
 }
 
 /* Content */
 .main-container {
-    margin:120px 20px 20px 20px;
+    margin:120px 45px 20px 45px;
     min-height: 500px;
 }
 .main-container .thumb {

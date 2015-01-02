@@ -49,7 +49,8 @@ class CategoryAdminController extends BaseController{
         } else {
             $category = new Category();
         }
-        return View::make("categoryAdmin.create", array('category' => $category));
+        $parents = Category::whereRaw("category_id is null")->lists("name", "id");
+        return View::make("categoryAdmin.create", array('category' => $category, 'parents' => $parents));
     }
 
     public function postSave() {
@@ -68,6 +69,7 @@ class CategoryAdminController extends BaseController{
             return array('status' => 'error', 'message' => $validator->messages()->all());
         }
         $category->name = $inputs["name"];
+        $category->category_id = $inputs['category_id'] ?: null;
         $category->save();
         return array('status' => 'success', 'message' => "Category has been created successfully");
     }

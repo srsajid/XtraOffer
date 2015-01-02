@@ -12,7 +12,7 @@
                     <div class="caption">
                         <h5 class="caption-header"><?php echo HTML::entities($offer->title); ?></h5>
                         <div class="team-description">
-                            <?php echo Str::limit(HTML::entities($offer->description), 100, " <span class='text-primary'>Read More ...<span>"); ?>
+                            <?php echo Str::limit(HTML::entities($offer->description), 60, " <span class='text-primary'>Read More ...<span>"); ?>
 
                         </div>
                     </div>
