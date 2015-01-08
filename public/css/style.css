@@ -303,6 +303,21 @@ input[type="color"]:focus,
 .main-category-nav .create-offer {
     margin-top: 22px;
 }
+.search-form {
+	margin-top: 5px;
+}
+.search-form input {
+	width: 250px;
+	-webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+	transition: width 1s
+}
+.search-form input:focus {
+	width: 280px;
+	
+}
+.search-form .glyphicon-search {
+	left: -24px;
+}
 
 /* Content */
 .main-container {
@@ -311,7 +326,7 @@ input[type="color"]:focus,
 }
 .main-container .thumb {
     /*border: 1px solid #dddddd;*/
-    padding-left: 10;
+    padding-left: 10px;
     padding-right: 0;
     cursor: pointer;
 }
@@ -331,7 +346,7 @@ input[type="color"]:focus,
 /* Footer*/
 #footer{
 	width: 100%;
-	padding: 60px 0 0;
+	padding: 10px 0 0;
 	background-color: #0f101a;
 }
 
@@ -346,16 +361,46 @@ input[type="color"]:focus,
 	margin-bottom: 20px;
 }
 
-#footer .widget h3{
+#footer h3{
 	font-family: 'Raleway', sans-serif;
-	font-size: 20px;
-	line-height: 26px;
+	font-size: 18px;
+	line-height: 22px;
 	font-weight: 800;
 	color: #d9dae9;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
+	text-align: center;
 }
 
+#footer div.email {
+	display: inline-block;
+	width: 69%;
+}
 
+#footer div.submit-btn {
+	display: inline-block;
+	width: 29%;
+}
+#footer form input, #footer form button {
+	width: 100%;
+	
+}
+
+#footer ul.footer-menu {
+	margin-top: 10px;
+	list-style: none;
+	padding: 0 0 0 0;
+}
+
+#footer ul.footer-menu li {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+}
+#footer ul li a {
+	cursor: pointer;
+}
+.social-media {
+	font-size: 25px;
+}
 
 /* 
 	==================
@@ -364,13 +409,13 @@ input[type="color"]:focus,
 */
 .copyright{
 	position: relative;
-	margin-top: 60px;
-	padding: 40px 0;
+	margin-top: 0px;
+	padding: 10px 0;
 	border-top: 1px solid #2c3e50;
 }
 
 .copyright .scroltop{
 	position: absolute;
-	right: 0;
-	top: 35px;
+	right: -29px;
+	top: 5px;
 }

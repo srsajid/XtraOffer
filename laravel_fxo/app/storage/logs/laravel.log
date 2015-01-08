@@ -9472,3 +9472,1557 @@ Stack trace:
 #9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
 #10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
 #11 {main} [] []
+[2015-01-06 23:51:41] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-06 23:52:50] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-06 23:55:07] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-07 00:03:03] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-07 00:09:30] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-07 00:22:08] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-07 00:26:28] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-07 00:27:20] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-07 00:28:25] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-07 00:32:01] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-07 00:32:32] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-07 00:37:05] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 21:49:58] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 21:51:24] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 21:56:17] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:00:03] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:05:12] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:05:27] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:11:44] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:11:47] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:16:05] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:16:13] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:17:54] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:22:50] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:24:04] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:24:46] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:24:48] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:26:30] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:27:13] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:27:23] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:27:37] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:27:37] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:27:59] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:28:06] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:28:20] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:28:27] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:28:37] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:30:32] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:31:36] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:31:58] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:32:11] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:32:12] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:32:13] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:32:13] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:32:19] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:32:48] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:32:55] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:33:05] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:33:06] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:33:07] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:34:12] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:34:17] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:34:56] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:37:39] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:39:08] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:45:31] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:45:53] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:45:55] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:46:27] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:48:22] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:48:51] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:49:27] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:49:51] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:50:08] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:51:15] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:51:45] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:53:04] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:54:31] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:56:41] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 22:57:48] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:02:08] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:03:51] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:05:02] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:05:17] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:07:04] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:08:06] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:19:09] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:22:11] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:22:36] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:22:37] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:23:28] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:27:17] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:28:08] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:28:20] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:30:54] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:33:41] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:33:48] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:33:49] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:33:49] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:33:59] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:34:00] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:34:00] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:34:15] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:35:50] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:35:51] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:35:52] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:36:55] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:38:59] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:44:22] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:44:23] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:44:24] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:44:24] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:44:24] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:44:25] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:44:49] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:44:51] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:45:28] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:45:29] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:47:30] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:47:55] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2015-01-08 23:49:08] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php:5682
+Stack trace:
+#0 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 C:\xampp\htdocs\XtraOffer\laravel_fxo\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 C:\xampp\htdocs\XtraOffer\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
