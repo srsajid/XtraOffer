@@ -7,5 +7,5 @@
  */
 
 class SR {
-    static public $baseUrl = "/XtraOffer/public/";
+    static public $baseUrl = "/XtraOffer/public_html/";
 } 

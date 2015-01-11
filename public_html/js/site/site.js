@@ -1,7 +1,7 @@
 /**
  * Created by User on 12/5/2014.
  */
-window.app = {baseUrl: "/XtraOffer/public/"}
+window.app = {baseUrl: "/XtraOffer/public_html/"}
 $(function() {
     function renderModal(url, callback) {
         $.ajax({
