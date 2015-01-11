@@ -230,9 +230,9 @@ input[type="color"]:focus,
 	color: #898ba2;
 	font-size: 16px;
 	text-shadow: none;
-	padding-top: 30px;
+	padding-top: 12px;
 	padding-right: 20px;
-	padding-bottom: 30px;
+	padding-bottom: 12px;
 	padding-left: 20px;
 	-webkit-transition: all 0.2s ease-in-out;
 	   -moz-transition: all 0.2s ease-in-out;
@@ -301,7 +301,7 @@ input[type="color"]:focus,
 }
 
 .main-category-nav .create-offer {
-    margin-top: 22px;
+    margin-top: 6px;
 }
 .search-form {
 	margin-top: 5px;
@@ -309,7 +309,8 @@ input[type="color"]:focus,
 .search-form input {
 	width: 250px;
 	-webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
-	transition: width 1s
+	transition: width 1s;
+	padding: 0 10px;
 }
 .search-form input:focus {
 	width: 280px;
@@ -321,8 +322,9 @@ input[type="color"]:focus,
 
 /* Content */
 .main-container {
-    margin:120px 45px 20px 45px;
-    min-height: 500px;
+	margin-top: 120px;
+	margin-bottom: 20px;
+    min-height: 550px;
 }
 .main-container .thumb {
     /*border: 1px solid #dddddd;*/

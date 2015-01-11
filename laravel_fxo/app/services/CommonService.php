@@ -50,7 +50,7 @@ class CommonService {
             $currentCategory = $selectedCategory && $selectedCategory->category_id ? $selectedCategory->category_id : $currentCategory; 
         }
 
-        $html = '<li '.($currentCategory ? "" : 'class="active"').'><a href="'.SR::$baseUrl.'">Home</a></li>';
+        $html = '<li '.($currentAction != "HomeController@index" ? "" : 'class="active"').'><a href="'.SR::$baseUrl.'">Home</a></li>';
         $categoryMapping = array();
         foreach($categories as $category) {
             $parent = $category->category_id;

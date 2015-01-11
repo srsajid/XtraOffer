@@ -1,5 +1,7 @@
 <?php
 Route::get("/", "HomeController@index");
+Route::get("/contact-us", "HomeController@contact");
+Route::post("/contact-us", "HomeController@postContact");
 Route::get("/login", function(){
     return View::make("admin.login", array('message' => Session::get("flash_error")));
 })->before("guest");
@@ -14,6 +16,7 @@ Route::controller("categoryAdmin", "CategoryAdminController");
 Route::controller("offerAdmin", "OfferAdminController");
 Route::controller("offer", "OfferController");
 Route::controller("category", "CategoryController");
+Route::controller("/", "HomeController");
 
 Route::get("test", function() {
    return Category::whereRaw("category_id is null")->lists("name", "id");
