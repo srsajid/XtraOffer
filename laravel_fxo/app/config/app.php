@@ -119,8 +119,7 @@ return array(
 		'Illuminate\Session\SessionServiceProvider',
 		'Illuminate\Translation\TranslationServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
-		'Illuminate\View\ViewServiceProvider',
-		'Illuminate\Workbench\WorkbenchServiceProvider',
+		'Illuminate\View\ViewServiceProvider'
 
 	),
 
