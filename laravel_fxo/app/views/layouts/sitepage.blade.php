@@ -93,8 +93,10 @@
                             </div>
                         </form>
                         <ul class="footer-menu">
-                            <li><a>About Us</a></li><li><a href="{{SR::$baseUrl}}contact-us">Contact Us</a></li><li><a>Privacy Policy</a></li>
-                            <li><a>Terms and Condition</a></li>
+                            <li><a href="{{SR::$baseUrl}}page/about-us">About Us</a></li>
+                            <li><a href="{{SR::$baseUrl}}contact-us">Contact Us</a></li>
+                            <li href="{{SR::$baseUrl}}privacy-policy"><a>Privacy Policy</a></li>
+                            <li href="{{SR::$baseUrl}}terms-and-condition"><a>Terms and Condition</a></li>
                         </ul>
                     </div>
                 </div>
